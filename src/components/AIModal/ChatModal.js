@@ -143,7 +143,7 @@ const ChatModal = ({ open, onClose, cart, totalAmount, setCart }) => {
   };
 
   const handleMessageClick = (message) => {
-    if (message.text === "ex)예산에 맞는 메뉴를 추천해줘.") {
+    if (message.text === "예산에 맞는 메뉴를 추천해줘.") {
       setBudgetModalOpen(true); // 예산 모달 열기
     } else if (message.text === "ex)장바구니에 있는 물건들 결제해줘.") {
       const paymentData = {
